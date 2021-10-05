@@ -1,6 +1,6 @@
 {
 	"name": "radio_paradise",
-	"version": "1.1.5",
+	"version": "1.0.4",
 	"description": "Radio Paradise Plugin for Volumio2 (incl. FLAC versions)",
 	"main": "index.js",
 	"scripts": {
@@ -8,10 +8,26 @@
 	},
 	"author": "marco79cgn",
 	"license": "ISC",
+	"repository": "https://github.com/volumio/volumio-plugins/tree/master/plugins/music_service/radio_paradise",
 	"volumio_info": {
 		"prettyName": "Radio Paradise",
 		"icon": "fa-headphones",
-		"plugin_type": "music_service"
+		"plugin_type": "music_service",
+		"architectures": [
+			"amd64",
+			"armhf",
+			"i386"
+		],
+		"os": [
+			"buster"
+		],
+		"details": "Lorem ipsum",
+		"changelog": "Lorem ipsum",
+		"channel": "beta"
+	},
+	"engines": {
+		"node": ">=8",
+		"volumio": ">=3"
 	},
 	"dependencies": {
 		"fs-extra": "^0.28.0",
